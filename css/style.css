@@ -210,6 +210,16 @@ section#main .wrapper{
   
 }
 
+/*-----------------Формат----------*/
+section#format{
+  border-top: 3px groove #563e06;
+  padding-bottom: 20px;
+
+  //background-color: #d0dde8;
+  padding-top: 50px;
+  color: #666666;
+}
+
 
 /*----------------Услуги и их стоимость--------------*/
 section#types{
