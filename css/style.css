@@ -1,0 +1,546 @@
+/*-----------Шрифты---------*/
+@font-face {
+  font-family: 'pfdintextcondprobold';
+  src: url('fonts/pfdintextcondprobold.eot');
+  src: url('fonts/pfdintextcondprobold.eot') format('embedded-opentype'), url('fonts/pfdintextcondprobold.woff2') format('woff2'), url('fonts/pfdintextcondprobold.woff') format('woff'), url('fonts/pfdintextcondprobold.ttf') format('truetype'), url('fonts/pfdintextcondprobold.svg#pfdintextcondprobold') format('svg');
+}
+@font-face {
+  font-family: 'pfdintextcondprolight';
+  src: url('fonts/pfdintextcondprolight.eot');
+  src: url('fonts/pfdintextcondprolight.eot') format('embedded-opentype'), url('fonts/pfdintextcondprolight.woff2') format('woff2'), url('fonts/pfdintextcondprolight.woff') format('woff'), url('fonts/pfdintextcondprolight.ttf') format('truetype'), url('fonts/pfdintextcondprolight.svg#pfdintextcondprolight') format('svg');
+}
+@font-face {
+  font-family: 'pfdintextcondpromedium';
+  src: url('fonts/pfdintextcondpromedium.eot');
+  src: url('fonts/pfdintextcondpromedium.eot') format('embedded-opentype'), url('fonts/pfdintextcondpromedium.woff2') format('woff2'), url('fonts/pfdintextcondpromedium.woff') format('woff'), url('fonts/pfdintextcondpromedium.ttf') format('truetype'), url('fonts/pfdintextcondpromedium.svg#pfdintextcondpromedium') format('svg');
+}
+.bolt {
+  font-family: "pfdintextcondprobold";
+}
+.med {
+  font-family: "pfdintextcondpromedium";
+}
+.light {
+  font-family: "pfdintextcondprolight";
+}
+
+
+
+/*------------------------Базовые настройки---------------------*/
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+.section_header h2{
+  text-transform: uppercase;
+  color: #563e06;
+  font-family: "pfdintextcondprobold"; 
+}
+button:focus {
+  outline: none;
+}
+hr {
+  border-color: #666;
+}
+button#free_consult{
+  transition: 2s;
+  background-color: #e2dcce;
+  color: #563e06;
+  border: 3px solid #563e06;
+  padding: 15px 15px;
+  font-family: "pfdintextcondpromedium";
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 14px;
+}
+button#free_consult:hover{
+  transition: 2s;
+  border: 3px solid #e2dcce;
+  background-color: #563e06;
+  color: #e2dcce;
+
+}
+button#get_answer{
+  transition: 2s;
+  color: #563e06;
+  font-size: 14px;
+  border: 3px solid #563e06;
+  padding: 10px 20px;
+  background-color: #e2dcce;
+  font-family: "pfdintextcondpromedium";
+  border-radius: 10px;
+    -moz-transition: all 0.2s 0.04s ease;
+    -o-transition: all 0.2s 0.04s ease;
+    -webkit-transition: all 0.2s 0.04s ease;
+}
+button#get_answer:hover{
+  transition: 2s;
+  border: 3px solid #e2dcce;
+  color: #e2dcce;
+}
+body{
+  background-color: #dbd1c5;
+}
+
+/*--------------------Шапка-----------------------*/
+header {
+  //background: url(../img/bg.jpg);
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #563e06;
+}
+header .descript h1 {
+  font-family: "pfdintextcondpromedium";
+  text-transform: uppercase;
+  font-size: 27px;
+}
+header .descript h3 {
+  font-family: "pfdintextcondprolight";
+  font-size: 17px;
+}
+header .email{
+  text-align: right;
+}
+header .email h3 {
+  margin-top: 7px;
+}
+header .email a {
+  display: inline-block;
+  font-family: "pfdintextcondpromedium";
+  text-decoration: none;
+  color: #666; 
+  padding-left: -50px;
+}
+header .email a:hover {
+  text-decoration: none;
+  color: #563e06;
+}
+header .email a:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  display: inline-block; 
+}
+header .email p{
+  font-family: "pfdintextcondprolight";
+}
+
+header .email .social{
+  margin-right: 15px;
+}
+
+
+
+header .list-inline a {
+  margin-top: 5px;
+  margin-left: 60px;
+  margin-right: -40px;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+    -moz-transition: all 0.2s 0.04s ease;
+    -o-transition: all 0.2s 0.04s ease;
+    -webkit-transition: all 0.2s 0.04s ease;
+  font-family: "pfdintextcondpromedium";
+  color: #d88958;
+ 
+}
+/*------------------------Навигация-------------------*/
+nav {
+  background-color:  #e2dcce;
+  text-align: center;
+  border: 2px ridge #dbd1c5;
+  top: 170px; /*высота шапки в пикселях*/
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+
+}
+nav .visible-xs{
+  text-align: center;
+  
+  top: 170px; /*высота шапки в пикселях*/
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+}
+
+nav .list-inline a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 10px 10px;
+  font-family: "pfdintextcondprolight";
+    -moz-transition: all 0.2s 0.04s ease;
+    -o-transition: all 0.2s 0.04s ease;
+    -webkit-transition: all 0.2s 0.04s ease;
+  color: #563e06;
+}
+nav .list-inline a:hover {
+  text-decoration: none;
+  background: #563e06;
+  color: #dbd1c5;
+}
+
+/*-------------------главный кран--------------*/
+section#main .container{
+  padding-bottom: 10px;
+  padding-top: 60px;
+  //background: url(../img/bg.jpg);
+  /*background-color: #e1e8f4;*/
+  //width: 100%;
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+}
+section#main .wrapper{
+  padding-top: 15px;
+  padding-left: 35px;
+  
+}
+
+
+/*----------------Услуги и их стоимость--------------*/
+section#types{
+  border-top: 3px groove #563e06;
+  padding-bottom: 20px;
+
+  //background-color: #d0dde8;
+  padding-top: 50px;
+  color: #666666;
+}
+section#types .container-fluid{
+  width: 80%;
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+}
+
+section#types .section_header{
+  margin-bottom: 50px;
+  color: #563e06;
+}
+section#types .section_header h2{
+
+  color: #563e06;
+}
+section#types h4{
+  text-transform: uppercase;
+  font-family: "pfdintextcondpromedium";
+  margin-top: 10px;
+  margin-bottom: -20px;
+  color: #563e06;
+}
+
+section#types .card{
+  margin-bottom: 50px;
+  padding: 5px;
+  border: 2px solid transparent;
+  overflow:hidden;
+}
+section#types .card:hover {
+  border: 2px inset #563e06;
+  border-radius: 10px;
+  background-color: #e2dcce;
+}
+
+
+
+
+
+
+/*------------------бесплатная консультация-----------------*/
+section#help{
+  padding-bottom: 20px;
+  
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+}
+
+section#help h3{
+  padding-right: 10px;
+  color: #563e06;
+  text-transform: uppercase;
+  font-family: "pfdintextcondprobold";
+}
+section#help p{
+  color: #563e06;
+  font-family: "pfdintextcondprolight";
+  font-size: 22px;
+}
+section#help .p{
+  color: #563e06;
+  font-family: "pfdintextcondprobold";
+}
+section#help img{
+margin-top: 60px;
+margin-right: 450px;
+}
+
+/*------------------отзывы---------------------*/
+
+section#feedback{
+  border-top: 3px groove #666;
+  background-color: #a08151;
+
+}
+
+section#feedback .container{
+  color: #e2dcce;
+  width: 100%;
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+}
+section#feedback .seaction_header{
+  margin-bottom: 60px;
+}
+
+
+/*-----------Контакты------------------*/
+
+footer{
+  padding-top: 30px;
+  /*padding-bottom: 10px;*/
+  background-color: #666;
+  color: #fff;
+}
+footer .container{
+  width: 100%;
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+    padding-bottom: 50px;
+}
+footer .map{
+  padding-left: 50px;
+}
+footer .about{
+  margin-left: -90px;
+}
+footer .about button{
+  color: #666;
+}
+footer .about button{
+  transition: 2s;
+  color: #e2dcce;
+  
+  border: 3px solid #e2dcce;
+  padding: 10px 20px;
+  background-color: #666;
+  text-transform: uppercase;
+  font-family: "pfdintextcondpromedium";
+  border-radius: 10px;
+
+}
+footer .about button:hover{
+  transition: 2s;
+  border: 3px solid #563e06;
+  background-color: #e2dcce;
+  color: #563e06;
+  
+}
+footer h2{
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+footer .social{
+  text-align: left;
+  margin-top: 25px;
+}
+footer .social_icon{
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  width: 37px;
+  height: 37px;
+}
+footer button#get_answer{
+  text-transform: uppercase;
+  font-family: "pfdintextcondprobold";
+  background-color: transparent;
+  padding: 7px 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+footer button#get_answer:hover{
+  background-color: #fff;
+  color: #666;
+}
+footer .davydov{
+  margin-top: -50px;
+  margin-left: 200px;
+  font-family: "pfdintextcondprobold";
+  text-align: right;
+}
+footer .davydov h4{
+  text-align: right;
+  text-transform: uppercase;
+  font-family: "pfdintextcondprobold";
+}
+footer .davydov a{
+  text-align: right;
+  color: #ff9933;
+  font-family: "pfdintextcondprobold";
+}
+
+.modal-dialog{
+  margin-top: 10px;
+}
+.big_modal{
+  width: 85%;
+  margin-top: 15px;
+}
+.header_modal h4{
+  text-transform: uppercase;
+  color: #666;
+  font-family: "pfdintextcondprobold";
+  text-align: center;
+  padding: 10px;
+}
+.modal-header{
+  margin-top: -35px;
+  border-bottom: none;
+}
+.modal-header .close{
+  text-shadow: none;
+  color: #fff;
+  opacity: 0.9;
+  margin-right: -40px;
+  margin-top: 15px;
+  font-size: 30px;
+}
+.modal-content{
+  border-radius: 0;
+}
+.modal-content input[name="name"]{
+  margin-top: 15px;
+  background: url(../img/user.png) no-repeat center left 5px;
+  padding: 20px;
+  padding-left: 35px;
+  border-radius: 1;
+  border: solid 1px #cccccc;
+  font-family: "pfdintextcondprolight";
+  opacity: 0.5;
+}
+.modal-content input[name="name"]:hover{
+  opacity: 1;
+}
+.modal-content input[name="phone"]{
+  margin-top: 15px;
+  background: url(../img/phone.png) no-repeat center left 5px;
+  padding: 20px;
+  padding-left: 35px;
+  border-radius: 1;
+  border: solid 1px #cccccc;
+  font-family: "pfdintextcondprolight";
+  opacity: 0.5;
+}
+.modal-content input[name="phone"]:hover{
+  opacity: 1;
+}
+.modal-content button[type="submit"]{
+  transition: 2s;
+  margin-top: 15px;
+  background-color: #e2dcce;
+  text-transform: uppercase;
+  color: #563e06;
+  border: 3px solid #563e06;
+  padding: 8px 75px;
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.modal-content button[type="submit"]:hover{
+  transition: 2s;
+  border: 3px solid #e2dcce;
+  background-color: #563e06;
+  color: #e2dcce;
+}
+.header_modal_info h4{
+  text-align: center;
+  text-transform: uppercase;
+  color: #563e06;
+  font-family: "pfdintextcondprobold";
+  margin-left: 20px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 15px;
+  padding: 20px;
+  padding-left: 35px;
+  border-radius: 0;
+  border: solid 1px #cccccc;
+  font-family: "pfdintextcondprolight";
+  opacity: 0.5;
+}
+textarea:hover{
+  opacity: 1;
+}
+/*-----------------------Адаптив-----------------------*/
+
+@import url(media.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

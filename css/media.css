@@ -1,0 +1,381 @@
+/*-----------------------Адаптив-----------------------*/
+
+.dropdown-toggle{
+	border: 1px solid #666;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #666;
+	margin-left: -10px;
+}
+.dropdown-toggle i{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.dropdown-toggle:hover{
+	background-color: #666;
+	color: #fff;
+}
+@media(min-width:0px) and (max-width:320px) {
+	nav{
+		top: 0;
+		height: 65px;
+		padding-top: 10px;
+	}
+	section#main .main_header{
+		background-color: #67cc67;
+	}
+	section#main .main_header h1{
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+	section#main .main_header h1 span{
+		line-height: 1.7;
+		padding: 10px;
+	}
+	section#main h3{
+		font-size: 16px;
+		text-align: center;
+	}
+	section#main .main_buttons button{
+		display: block;
+		margin: 0 auto;
+	}
+	section#main .main_buttons button#get_measurel {
+		padding: 12px 20px;
+		margin-bottom: 10px;
+	}
+	section#main .main_buttons button#get_types {
+		padding: 10px 33px;
+		margin-bottom: 20px;	
+		display: block;
+		margin: 0 auto;
+	}
+	section#help button{
+		display: block;
+		margin: 0 auto;
+	}
+	section#offer h4{
+		text-align: center;
+		margin-bottom: -10px;
+	}
+	section#offer h3{
+		text-align: center;
+	}
+	section#offer p{
+		text-align: center;
+	}
+	section#offer input{
+		margin-bottom: 5px;
+	}
+	section#offer button[type="submit"]{
+		display: block;
+		margin: 0 auto;
+  		padding: 1px 85px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .davydov{
+		text-align: center;
+	}
+	.big_modal{
+		margin-top: 10%;
+		width: 95%;
+	}
+	.big_modal h4{
+		text-align: center;
+		font-size: 14px;
+		margin-left: 0;
+	}
+	.big_modal p{
+		font-size: 14px;
+	}
+	.big_modal p span{
+		display: block;
+		margin: 0 auto;
+	}
+	.big_modal input{
+		margin-bottom: 15px;
+	}
+	.big_modal button[type="submit"] {
+		padding: 1px 85px;
+		margin-bottom: 15px;	
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	nav{
+		top: 0;
+		height: 95px;
+		padding-top: 10px;
+	}
+	section#main .main_header{
+		background-color: #67cc67;
+	}
+	section#main .main_header h1{
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 30px;
+
+	}
+	section#main .main_header h1 span{
+		line-height: 1.7;
+		padding: 10px;
+	}
+	section#main h3{
+		font-size: 16px;
+		text-align: center;
+	}
+	section#main .main_buttons button{
+		display: block;
+		margin: 0 auto;
+	}
+	section#main .main_buttons button#get_measurel {
+		padding: 12px 20px;
+		margin-bottom: 10px;
+	}
+	section#main .main_buttons button#get_types {
+		padding: 10px 33px;
+		margin-bottom: 20px;	
+		display: block;
+		margin: 0 auto;
+	}
+	section#help button{
+		display: block;
+		margin: 0 auto;
+	}
+	section#offer h4{
+		text-align: center;
+		margin-bottom: -10px;
+	}
+	section#offer h3{
+		text-align: center;
+	}
+	section#offer p{
+		text-align: center;
+	}
+	section#offer input{
+		margin-bottom: 5px;
+	}
+	section#offer button[type="submit"]{
+		display: block;
+		margin: 0 auto;
+  		padding: 1px 175px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .davydov{
+		text-align: center;
+	}
+	.big_modal{
+		margin-top: 10%;
+		width: 99%;
+	}
+	.big_modal h4{
+		text-align: center;
+		font-size: 14px;
+		margin-left: 0;
+	}
+	.big_modal p{
+		font-size: 14px;
+	}
+	.big_modal p span{
+		display: block;
+		margin: 0 auto;
+	}
+	.big_modal input{
+		margin-bottom: 15px;
+	}
+	.big_modal button[type="submit"] {
+		padding: 1px 175px;
+		margin-bottom: 15px;	
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	nav{
+		top: 0;
+		height: 155px;
+		padding-top: 10px;
+	}
+	section#main .main_header{
+		padding-top: 80px;
+		background-color: #67cc67;
+	}
+	section#main .main_header h1{
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 15px;
+
+	}
+	section#main .main_header h1 span{
+		line-height: 1.7;
+		padding: 10px;
+	}
+	section#main h3{
+		font-size: 18px;
+		text-align: center;
+	}
+	section#main .main_buttons button{
+		display: block;
+		margin: 0 auto;
+	}
+	section#main .main_buttons button#get_measurel {
+		padding: 12px 20px;
+		margin-bottom: 10px;
+	}
+	section#main .main_buttons button#get_types {
+		padding: 10px 33px;
+		margin-bottom: 20px;	
+		display: block;
+		margin: 0 auto;
+	}
+	section#help button{
+		display: block;
+		margin: 0 auto;
+	}
+	section#offer h4{
+		text-align: center;
+		margin-bottom: -10px;
+	}
+	section#offer h3{
+		text-align: center;
+	}
+	section#offer p{
+		text-align: center;
+	}
+	section#offer input{
+		margin-bottom: 5px;
+	}
+	section#offer button[type="submit"]{
+		display: block;
+		margin: 0 auto;
+  		padding: 1px 305px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .davydov{
+		text-align: center;
+	}
+	.big_modal{
+		margin-top: 10%;
+		width: 99%;
+	}
+	.big_modal h4{
+		text-align: center;
+		font-size: 14px;
+		margin-left: 0;
+	}
+	.big_modal p{
+		font-size: 14px;
+	}
+	.big_modal p span{
+		display: block;
+		margin: 0 auto;
+	}
+	.big_modal input{
+		margin-bottom: 15px;
+	}
+	.big_modal button[type="submit"] {
+		padding: 1px 305px;
+		margin-bottom: 15px;	
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	header .descript h4{
+		font-size: 16px;
+	}
+	header .phone_number h3{
+		font-size: 18px;
+	}
+	nav .list-inline{
+		text-align: center;
+
+	}
+	section#main {
+		margin-top: 50px;
+	}
+	section#offer h4{
+		text-align: center;
+		margin-bottom: -10px;
+	}
+	section#offer h3{
+		text-align: center;
+	}
+	section#offer p{
+		text-align: center;
+	}
+	section#offer input{
+		margin-bottom: 5px;
+	}
+	section#offer button[type="submit"]{
+		display: block;
+		margin: 0 auto;
+  		padding: 1px 305px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .davydov{
+		text-align: center;
+	}
+	.big_modal{
+		margin-top: 10%;
+		width: 95%;
+	}
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	header .descript h4{
+		font-size: 16px;
+	}
+	header .phone_number h3{
+		font-size: 18px;
+	}
+	nav .list-inline{
+		text-align: center;
+
+	}
+	section#main {
+		margin-top: 50px;
+	}
+	section#offer h4{
+		text-align: center;
+		margin-bottom: -10px;
+	}
+	section#offer h3{
+		text-align: center;
+	}
+	section#offer p{
+		text-align: center;
+	}
+	section#offer input{
+		margin-bottom: 5px;
+	}
+	section#offer button[type="submit"]{
+		display: block;
+		margin: 0 auto;
+  		padding: 1px 85px;
+	}
+	footer{
+		text-align: center;
+	}
+	footer .davydov{
+		text-align: center;
+	}
+	.big_modal{
+		margin-top: 10%;
+		width: 95%;
+	}
+}
